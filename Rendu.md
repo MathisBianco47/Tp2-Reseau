@@ -104,4 +104,12 @@ Masque de sous-réseau : `255.255.255.0`
 round-trip min/avg/max/stddev = 0.553/0.877/1.108/0.172 ms
 MacBook-Pro-de-Mathis:~ mathisbianco$ 
 ```
+---
 
+### 4. Utilisation d'un des deux comme gateway
+
+Mathis désactive sa carte Wifi et n'a plus accès à internet.
+
+J'active, sur ma carte Wifi 
+
+```
