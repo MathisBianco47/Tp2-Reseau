@@ -74,5 +74,34 @@ On remarque qu'il y a 1024 adresses IP dans le réseau.
 
 ### 1. Prérequis
 
++ On a un cable RJ45
++ On a désactivé nos deux firewalls
 
+### 2. Cablâge
+
+branché via le port Ethernet à nos adapteurs.
+
+---
+
+### 3. Modification d'adresse IP
+
+
+Nous avons tout deux modifié l'adresse IP de notre carte Ethernet
+
+Adresse IP de Sallès Sascha : `10.0.0.2`
+
+Adresse IP de Bianco Mathis : `10.0.0.3`
+
+Masque de sous-réseau : `255.255.255.0`
+
+---
+
+**Test avec le ping :**
+
+```
+--- 10.0.0.2 ping statistics ---
+9 packets transmitted, 9 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.553/0.877/1.108/0.172 ms
+MacBook-Pro-de-Mathis:~ mathisbianco$ 
+```
 
