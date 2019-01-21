@@ -43,4 +43,36 @@ Passerelle par défaut : `10.33.3.253`
    + *Ouvrir les préférences Réseau et Internet*
 + Clic sur *avancé* 
 + Clic sur onglet sur *TCP/IP*
-  
+
+---
+**A quoi sert la gateway dans le réseau d'Ingésup ?**
+
+Le gateway est l'adresse qui permet de communiquer avec internet.
+
+---
+**Calculez la première et la dernière IP disponibles du réseau :**
+
+Première adresse IP disponible est `10.33.3.1`                                                                          Dernière adresse IP disponible est `10.33.3.255`
+
+---
+**Nmap :**
+
+Aprés l'installation de Nmap, j'ai tapé la commande `nmap -sn -PE 10.33.0.0/22`
+
+```
+Nmap scan report for 10.33.3.254
+Host is up (0.0055s latency).
+Nmap done: 1024 IP addresses (85 hosts up) scanned in 28.75 seconds
+MAC Address: F4:BF:80:C0:A5:8A (Unknown)
+
+```
+On remarque qu'il y a 1024 adresses IP dans le réseau.
+
+---
+
+## II. Exploration locale en duo
+
+### 1. Prérequis
+
+
+
