@@ -158,8 +158,57 @@ on tape la commande `sudo ipconfig set en0 DHCP`
 
 
 Toujours avec la commande `system_profiler SPNetworkDataType`
-
+on possède deux adresses dns, j'ai pris l'une des deux
 `Serveur DNS : 10.33.10.20`
 
 ---
 
+**Nslookup**
+
+dig google.com :
+```
+;; ANSWER SECTION:
+google.com.		41	IN	A	172.217.19.238
+
+```
+dig ynov.com :
+```
+;; ANSWER SECTION:
+ynov.com.		1546	IN	A	217.70.184.38
+
+```
+
+---
+
+**Reverse lookup**
+Commande effectué: dig -x 78.78.21.21 +short
+Premiere adresse : host-78-78-21-21.mobileonline.telia.com.
+
+Commande effectué: dig -x 92.16.54.88 +short
+Seconde adresse : host-92-16-54-88.as13285.net.
+
+C'est la même chose que pour le lookup mais dans l'autre sens. C'est-à-dire que `78.78.21.21` est lié au nom de domaine host-78-78-21-21.mobileonline.telia.com
+
+### 3. Bonus
+
+**Se renseigner sur les différences entre WiFi et câble**
+
+Le câble a un meilleur débit que la Wifi car il y a très peu de perte, car le signal ne peut être alterner par les mûrs 'exemple'
+
+---
+
+**explorer l'interface d'administration de votre box (chez vous) avec tout ça en tête**
+
+C'est celle de Orange. 
+L'interface est accessible via l'adresse ,
+Sur ce site il y a la WIFI et l'IP etc.
+
+---
+
+**sinon, elle sert à quoi la MAC si on a des IP ? => Se renseigner sur ARP**
+
+Une adresse IP est attribuée en fonction du réseau et peut changer alors que l'adresse MAC est physique en fonction de la carte réseau.
+
+Nous ne posssèdons pas de switch.
+
+---
