@@ -112,4 +112,18 @@ Mathis désactive sa carte Wifi et n'a plus accès à internet.
 
 J'active, sur ma carte Wifi 
 
-```
+---
+
+### 5. Petit chat privé
+
+
+---
+
+### 6. Wireshark
+![alt text]()
+
+---
+
+### 7. Firewall
+
+
