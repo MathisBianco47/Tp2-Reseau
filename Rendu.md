@@ -15,8 +15,8 @@ Sur mac, on ouvre bash et on tape la commande ifconfig
 | NOM         | Carte Réseau Sans Fil           | Binaire|
 | ------------- |-------------|----------------|
 | Masque de sous-réseau      | 0xfffffc00 ou 255.255.252.0 | 11111111.11111111.11111100.00000000|
-| Adresse MAC      | f0:18:98:46:5c:b2 ||
-| Adresse IP (IPv4) | 10.33.3.253 (préféré)      |00001010.00100001.00000011.11111101|
+| Adresse MAC      | f0:18:98:29:6b:81 ||
+| Adresse IP (IPv4) | 10.33.3.14      |00001010.00100001.00000011.11111101|
 
 
 | NOM         | Carte Ethernet Ethernet |
