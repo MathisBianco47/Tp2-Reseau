@@ -120,10 +120,46 @@ Après 2h passé à essayer de faire la commande nc -l -p 8888, sur le mac de ma
 ---
 
 ### 6. Wireshark
-![alt text](3h putain d'heure que je bosse conne un con pour pas que ça marche purééééééééééé)
+![alt text]()
 
 ---
 
 ### 7. Firewall
-nothing
+...
+
+
+## III. Manipulation d'autres outils/protocoles côté client
+
+### DHCP 
+La commande qui m'a permis de trouver le DHCP `system_profiler SPNetworkDataType | grep "Server Identifier"` (beaucoup de temps perdue)
+
+`Serveur DHCP  : 10.33.3.254`
+
+Avec cette commande, on ne peut pas obtenir la durée, ou on obtient `duration Osec`
+
+---
+
+**Ce que nous avons compris du DHCP**
+
+
+Il est chargé de la configuration automatique des adresses IP d'un réseau. 
+Cela évite à l'utilisateur de tout paramétrer ces IP manuellement.
+
+---
+
+**Demandez une nouvelle adresse IP**
+
+
+on tape la commande `sudo ipconfig set en0 DHCP`
+
+---
+
+### DNS
+
+
+Toujours avec la commande `system_profiler SPNetworkDataType`
+
+`Serveur DNS : 10.33.10.20`
+
+---
 
