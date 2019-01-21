@@ -1,3 +1,4 @@
+BIANCO Mathis
 # TP2-Reseau
 Ce tp est entièrement réalisé sous le système macOs.
 
@@ -25,3 +26,21 @@ Sur mac, on ouvre bash et on tape la commande ifconfig
 Adresse de réseau de la carte WiFi : `10.33.0.0`
 
 Adresse de broadcast de la carte WiFi : `10.33.3.255/22` =>  00001010.00100001.00000011.11111111
+
+---
+**Affichez votre gateway**
+
+On peut obtenir ce genre d'informations avec la commande `route -n get default`.
+
+Passerelle par défaut : `10.33.3.253`
+
+
+---
+**GUI - Trouvez comment afficher les informations sur une carte IP (change selon l'OS) :**
+
+
++ Clic droit sur la touche option puis sur *WI-FI* du bureau,
+   + *Ouvrir les préférences Réseau et Internet*
++ Clic sur *avancé* 
++ Clic sur onglet sur *TCP/IP*
+  
